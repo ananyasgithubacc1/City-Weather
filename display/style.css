@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.agoda.com/wp-content/uploads/2024/08/Aga-Khan-Palace-featured-1244x700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Times New Roman', 'Georgia', Serif, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrollbars */
+}
+
+main {
+    background-color: rgba(107, 120, 141, 0.97);
+    position: relative;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Perfect center alignment */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    min-width: 300px; /* Lowered min-width for mobile support */
+    max-width: 500px;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#search {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px;
+    outline: none; /* Removes default blue outline */
+}
+
+#submit {
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 30%; /* Adjusted width to fill space */
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+}
+#submit:hover {
+    background-color: #f0f0f0;
+}
+
+#weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* standard syntax is align-items */
+    justify-content: space-between;
+}
+
+#weather-search {
+    display: flex;
+    width: 100%; /* Changed to 100% of parent */
+}
+
+#weather-data {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#weather-data > img {
+    border-radius: 50%;
+    background-color: lightskyblue;
+}
+#weather-data div {
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#weather-data p {
+    margin-bottom: 5px;
+}
