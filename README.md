@@ -1,8 +1,8 @@
-City Weather 
+City Weather: 
 
 A simple and responsive weather application that allows users to check real-time weather information for any city. The app fetches live weather data using a weather API and displays details like temperature, humidity, wind speed, and weather conditions in a clean user interface.
 
-Features
+Features: 
 Search weather by city name,
 Displays real-time temperature and weather conditions,
 Shows humidity and wind speed,
